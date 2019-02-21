@@ -1,0 +1,19 @@
+{
+  "name": "asciidoctor-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:miiton/asciidoctor-jp-boilerplate.git",
+  "author": "miiton <468745+miiton@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "textlint": "^11.2.3",
+    "textlint-plugin-asciidoc-loose": "^1.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.0",
+    "textlint-rule-prh": "^5.2.0"
+  },
+  "scripts": {
+    "textlint": "textlint src/**",
+    "pdf": "make pdf",
+    "html": "make html"
+  }
+}

@@ -15,7 +15,7 @@
 :listing-caption: リスト
 :sectnums:
 
-== はじめに
+== 始め
 
 このドキュメントはAsciidoctorのサンプルです。
 
@@ -27,7 +27,8 @@ WARNING: 注意です
 
 IMPORTANT: 重要です
 
-CAUTION: 危険!!!です
+CAUTION: 危険です
+
 
 
 
@@ -56,10 +57,15 @@ database LOG as "ログファイル"
 A -> API : リクエスト
 API -> LOG : ロギング
 API -> A : レスポンス
-
 ....
 
 
-## マークダウンも
+== textlint
 
-- いけるで
+* WordPress
+* Asciidoctor なら、きれいに書ける
+
+きっとよいことがあるかもしれない
+
+
+東京特許許可局庁殿
