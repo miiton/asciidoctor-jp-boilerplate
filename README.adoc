@@ -1,6 +1,43 @@
 = Asciidoctor 日本語ボイラープレート
 
+== 使い方
+
+Dockerイメージビルド
+
+...
+make build
+// or
+yarn build
+...
+
+
+PDF生成
+
+...
+make pdf
+// or
+yarn pdf
+...
+
+
+HTML生成
+
+...
+make html
+// or
+yarn html
+...
+
+
+textlint
+
+...
+yarn install
+yarn textlint
+...
+
+
 == 機能
 
-* Asciidoctor
-* textlint (WIP)
+* Asciidoctor(Japanese)
+* textlint

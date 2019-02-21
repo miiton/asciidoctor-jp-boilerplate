@@ -185,14 +185,6 @@ analyze-desumasu-dearu@^3.1.0:
     kuromojin "^1.2.1"
     object.assign "^4.0.3"
 
-analyze-desumasu-dearu@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/analyze-desumasu-dearu/-/analyze-desumasu-dearu-4.0.0.tgz#0b0252a4dc4fb43c798a614f2a5e4d93ffcc6912"
-  dependencies:
-    array-find "^1.0.0"
-    kuromojin "^1.4.0"
-    object.assign "^4.1.0"
-
 ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
@@ -664,7 +656,7 @@ kuromoji@0.1.1:
     doublearray "0.0.2"
     zlibjs "^0.2.0"
 
-kuromojin@^1.0.2, kuromojin@^1.1.0, kuromojin@^1.2.1, kuromojin@^1.3.1, kuromojin@^1.3.2, kuromojin@^1.4.0:
+kuromojin@^1.0.2, kuromojin@^1.1.0, kuromojin@^1.2.1, kuromojin@^1.3.1, kuromojin@^1.3.2:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/kuromojin/-/kuromojin-1.4.0.tgz#2d955746736981e73d02dbfd20eeee8110cddab2"
   dependencies:
@@ -804,7 +796,7 @@ object-keys@^1.0.11, object-keys@^1.0.12:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.0.tgz#11bd22348dd2e096a045ab06f6c85bcc340fa032"
 
-object.assign@^4.0.3, object.assign@^4.1.0:
+object.assign@^4.0.3:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object.assign/-/object.assign-4.1.0.tgz#968bf1100d7956bb3ca086f006f846b3bc4008da"
   dependencies:
@@ -1284,21 +1276,21 @@ textlint-rule-ja-no-weak-phrase@^1.0.2:
     morpheme-match "^1.0.1"
     morpheme-match-all "^1.1.0"
 
-textlint-rule-max-comma@^1.0.2, textlint-rule-max-comma@^1.0.4:
+textlint-rule-max-comma@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/textlint-rule-max-comma/-/textlint-rule-max-comma-1.0.4.tgz#f555c97e0d3039ca7da06cfd1afad0e5f5899a37"
   dependencies:
     sentence-splitter "^2.0.0"
     unist-util-filter "^0.2.1"
 
-textlint-rule-max-kanji-continuous-len@^1.1.0, textlint-rule-max-kanji-continuous-len@^1.1.1:
+textlint-rule-max-kanji-continuous-len@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/textlint-rule-max-kanji-continuous-len/-/textlint-rule-max-kanji-continuous-len-1.1.1.tgz#cbcc44488c06d36c65099e12f7977e3a15c3b77f"
   dependencies:
     match-index "^1.0.1"
     textlint-rule-helper "^2.0.0"
 
-textlint-rule-max-ten@^2.0.1, textlint-rule-max-ten@^2.0.3:
+textlint-rule-max-ten@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/textlint-rule-max-ten/-/textlint-rule-max-ten-2.0.3.tgz#dccbc0d0157ee86a7572ca00a47ab1fa577f0645"
   dependencies:
@@ -1366,14 +1358,6 @@ textlint-rule-no-mix-dearu-desumasu@^3.0.2:
   resolved "https://registry.yarnpkg.com/textlint-rule-no-mix-dearu-desumasu/-/textlint-rule-no-mix-dearu-desumasu-3.0.3.tgz#ac4b8160b4f46644a4a40d62fe01d8db7670b7c3"
   dependencies:
     analyze-desumasu-dearu "^3.1.0"
-    textlint-rule-helper "^2.0.0"
-    unist-util-visit "^1.1.0"
-
-textlint-rule-no-mix-dearu-desumasu@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-mix-dearu-desumasu/-/textlint-rule-no-mix-dearu-desumasu-4.0.0.tgz#2f0c6268a183f615a80de7af1a6ca0b6a6ed09ed"
-  dependencies:
-    analyze-desumasu-dearu "^4.0.0"
     textlint-rule-helper "^2.0.0"
     unist-util-visit "^1.1.0"
 
