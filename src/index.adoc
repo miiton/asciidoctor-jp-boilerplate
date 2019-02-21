@@ -1,0 +1,65 @@
+= Asciidoctor 日本語ボイラープレート: GenShinGothic + Cica + etcetc...
+:author: miiton
+:email: 468745+miiton@users.noreply.github.com
+:icons: font
+:toc: left
+:encoding: utf-8
+:lang: ja
+:doctype: book
+:chapter-label:
+:figure-caption: 図
+:example-caption: 例
+:table-caption: 表
+:appendix-caption: 付録
+:toc-title: 目次
+:listing-caption: リスト
+:sectnums:
+
+== はじめに
+
+このドキュメントはAsciidoctorのサンプルです。
+
+NOTE: ノートです
+
+TIP: ポイントです
+
+WARNING: 注意です
+
+IMPORTANT: 重要です
+
+CAUTION: 危険!!!です
+
+
+
+[plantuml, diagram-classes, svg]
+....
+skinparam monochrome true
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....
+
+[plantuml, sequence, svg]
+....
+skinparam monochrome true
+autonumber
+
+actor A as "ユーザーA"
+participant API as "バックエンド"
+database LOG as "ログファイル"
+
+A -> API : リクエスト
+API -> LOG : ロギング
+API -> A : レスポンス
+
+....
+
+
+## マークダウンも
+
+- いけるで
